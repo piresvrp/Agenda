@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+    
+    <servlet>
+        <servlet-name>Teste</servlet-name>
+        <servlet-class>MVC.Controller.ServletCadastro</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Teste</servlet-name>
+        <url-pattern>/Cadastrar</url-pattern>
+    </servlet-mapping>
+</web-app>
